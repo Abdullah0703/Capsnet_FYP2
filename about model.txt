@@ -1,4 +1,12 @@
-this is the model that has 71 percent accuracy at the moment
+this is the model that has 71 percent accuracy at the moment and please dont touch it at any cost
+instructions to follow
+open a terminal type the following 
+ cd .\frontend\   
+ cd .\lung_capsnet\
+ npm run dev
+this is for the frontend now for the backend
+open another terminal type:
+uvicorn api:app --reload this loads the model and makes it refresh automatically technincally a backend server 
 for 400 images
   A.ElasticTransform(alpha=1, sigma=50, alpha_affine=50, p=0.2),
 Class weights: {0: 0.002398081534772182, 1: 0.0024937655860349127}
